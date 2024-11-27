@@ -3,13 +3,13 @@ body {
 }
 
 .fondo1, .fondo2, .fondo3{
-    background-image: url('/imagenes/imgfondo.jpg'); 
+    background-image: url('../imagenes/imgfondo.jpg'); 
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
 }
 .fondo2{
-    background-image: url('/imagenes/fondo2.jfif'); 
+    background-image: url('../imagenes/fondo2.jfif'); 
 
 }
 
