@@ -88,11 +88,13 @@ let sonidoGanar = new Audio("./sonidos/ganar.mp3");
 let sonidoTiempo = new Audio("./sonidos/tiempo.mp3");
 let mostrarJugador = d.querySelector(".jugador");
 let tabla = d.querySelector(".records tbody"); // porque en tbody van los registros
+let fondoBody = d.querySelector("body");
 
 //setTimeout(); // se ejecuta una vez, cuando pase determinado tiempo.
 //setInterval(); // funcion que se ejecuta durante cierto intervalo de tiempo- infinitamente
 
 d.addEventListener("DOMContentLoaded", ()=>{
+    fondoBody.classList.add("fondo1");
     mostrarDatos();
 });
 
@@ -180,6 +182,7 @@ function compararImagenes(){
   // comprobar si se adivinaron todas las imagenes
   if (nivel == 1 && aciertos == 6) {
       alert("🎉🎉FELICITACIONES PASASTE AL SIGUIENTE NIVEL  !! 🎉🎉");
+      fondoBody.classList.replace("fondo1", "fondo2");
       //location.reload(); // recarga la pagina.
       totalIntentos += intentos;
       totalTiempo += tiempo;

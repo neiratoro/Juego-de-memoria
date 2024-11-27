@@ -10,41 +10,51 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css" />
   </head>
   <body>
+
+
+    <!--Juego de memoria-->
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1 class="text-warning my-3 text-center">Juego de memoria</h1>
+          <h1 class=" font my-3 text-center fw-bold">EJERCITA TU MEMORIA</h1>
         </div>
         <div class="col-12">
           <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link">JUGAGOR: <span class="jugador">PLAYER 1</span></a>
+            <li class="nav-item fw-bold">
+              <a href="https://academy.wakeupbrain.com/concentrese/#:~:text=El%20juego%20va%20por%20turnos,las%20pone%20en%20su%20espacio." target="_blank">Instrucciones de juego</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">INTENTOS: <span class="intentos">0</span></a>
+              <a class="nav-link fw-bold text-dark">JUGAGOR: <span class="jugador">PLAYER 1</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">ACIERTOS: <span class="aciertos">0</span></a>
+              <a class="nav-link fw-bold text-dark">INTENTOS: <span class="intentos">0</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-dark">ACIERTOS: <span class="aciertos">0</span></a>
             </li>
            
             <li class="nav-item">
-              <a class="nav-link">TIEMPO DE JUEGO: <span class="tiempo">0</span></a>
+              <a class="nav-link fw-bold text-dark">TIEMPO DE JUEGO: <span class="tiempo">0</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">NIVEL: <span class="nivel">1</span></a>
+              <a class="nav-link fw-bold text-dark">NIVEL: <span class="nivel">1</span></a>
             </li>
             <li class="nav-item">
-              <a class="btn-iniciar btn btn-warning">INICIAR <span></span></a>
+              <a class="btn-iniciar btn btn-warning fw-bold p-2">INICIAR JUEGO <span></span></a>
             </li>
           </ul>
         </div>
         <div class="col-12">
           <div class="row">
             <div class="col-7">
-              <h1 class="text-warning">Tablero de Juego</h1>
+              <h1 class="text-danger fw-bold">Tablero de Juego</h1>
               <hr />
               <div class="tablero row">
                 <!--Aqui van las imagenes-->
@@ -75,7 +85,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">"¡Únete a la Aventura! Regístrate para Comenzar</h1>
+        <h1 class="modal-title fs-5 text-center fw-bold" id="exampleModalLabel">"¡Únete a la Aventura! Regístrate para Comenzar</h1>
         <button type="button" class="btn-close cerrar" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -93,6 +103,8 @@
     </div>
   </div>
 </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="js/funciones.js"></script>
     <script src="js/guardarDatos.js"></script>

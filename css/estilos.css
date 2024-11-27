@@ -1,3 +1,28 @@
+body {
+     margin: 40px;      
+}
+
+.fondo1, .fondo2, .fondo3{
+    background-image: url('/imagenes/imgfondo.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.fondo2{
+    background-image: url('/imagenes/fondo2.jfif'); 
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white; 
+}
+
 .altura{
     height: 200px !important;
     width: 200px;
@@ -13,3 +38,10 @@
     transform: scale(1.4);
     box-shadow: 1px 1px 5px 6px rgba(9,222,209,0.7);
 }
+
+.font{
+    font-family: "Share Tech Mono", monospace;
+    color: brown;
+    font-size: 60px;
+}
+
