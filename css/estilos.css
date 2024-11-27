@@ -45,3 +45,12 @@ body {
     font-size: 60px;
 }
 
+.btn-color {
+    background-color: rgb(3, 255, 255);
+    color: black;
+  }
+
+  .btn-color:hover {
+    background-color: #e70ca5; /* Azul marino más oscuro */
+  }
+
